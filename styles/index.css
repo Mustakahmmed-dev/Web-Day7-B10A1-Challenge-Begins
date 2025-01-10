@@ -29,6 +29,9 @@ body{
 /* Hero */
 .hero{
     background-image: url("../assets/Hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 50px 0;
 }
@@ -47,4 +50,44 @@ body{
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: 600;
+}
+
+/* Web Dev Container */
+.web-dev-container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.web-dev-container-desc{
+    margin: 60px 0;
+    text-align: center;
+}
+.web-dev-container p{
+    color: rgb(13, 19, 33);
+}
+.web-dev-container-desc p{
+    padding: 25px;
+    
+}
+
+/* Web Dev Cards */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+}
+.card-container h2{
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 25px;
+}
+.btn-general{
+    margin-top: 25px;
+    padding: 8px 16px;
+    border: 1px solid rgb(13, 19, 33);
+    font-weight: 600;
+    opacity: 0.7;
+}
+.web-dev-container p, .web-dev-container button{
+    font-size: 16px;
 }
