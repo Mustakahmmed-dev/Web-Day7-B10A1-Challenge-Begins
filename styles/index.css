@@ -54,7 +54,7 @@ body{
 
 /* Web Dev Container */
 .web-dev-container{
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
 }
 .web-dev-container-desc{
@@ -90,4 +90,32 @@ body{
 }
 .web-dev-container p, .web-dev-container button{
     font-size: 16px;
+}
+
+/* Video Section */
+.video-sec-container{
+    max-width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+.my-inspiration{
+    padding: 0 100px 50px;
+}
+.my-inspiration h1{
+    color: rgb(13, 19, 33);
+}
+.my-inspiration p{
+    color: rgb(13, 19, 33, 0.7);
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+.video iframe{
+    border-radius: 15px;
 }
